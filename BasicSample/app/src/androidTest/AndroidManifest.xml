@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.android.testing.espresso.BasicSample.test">
+
+    <instrumentation
+        android:name="androidx.test.runner.AndroidJUnitRunner"
+        android:targetPackage="com.example.android.testing.espresso.BasicSample" />
+
+    <application
+        android:label="BasicSampleTest"
+        tools:replace="label" />
+</manifest>
